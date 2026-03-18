@@ -6,7 +6,7 @@ public class BinarySearch {
         int arr[]=new int[5];
         int key, start=0, end=4, mid;
 
-        Scanner sc=new
+        Scanner sc = new
         Scanner(System.in);
 
         System.out.println("Enter 5 soeted numbers:");
@@ -23,6 +23,7 @@ public class BinarySearch {
 
             if(arr[mid]==key){
                 System.out.println("Element found at index:"+mid);
+                sc.close();
 
                 return;
             }
